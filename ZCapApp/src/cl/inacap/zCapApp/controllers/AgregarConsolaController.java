@@ -68,7 +68,7 @@ public class AgregarConsolaController extends HttpServlet {
 	    	Consola consola = new Consola();
 	    	consola.setNombre(nombre);
 	    	consola.setMarca(marca);
-	    	consola.setLanzamiento(anio);
+	    	consola.setAnioLanzamiento(anio);
 	    	consolasDAO.save(consola);
 	    	request.setAttribute("mensaje", "Consola registrada exitosamente");
 		}else {

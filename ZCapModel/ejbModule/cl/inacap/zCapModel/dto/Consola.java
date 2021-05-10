@@ -6,7 +6,7 @@ public class Consola {
 
   private String nombre;
   private String marca;
-  private int Lanzamiento;
+  private int anioLanzamiento;
   private List<Juego> juegos;
 public String getNombre() {
 	return nombre;
@@ -20,11 +20,11 @@ public String getMarca() {
 public void setMarca(String marca) {
 	this.marca = marca;
 }
-public int getLanzamiento() {
-	return Lanzamiento;
+public int getAnioLanzamiento() {
+	return anioLanzamiento;
 }
-public void setLanzamiento(int lanzamiento) {
-	Lanzamiento = lanzamiento;
+public void setAnioLanzamiento(int anioLanzamiento) {
+	this.anioLanzamiento = anioLanzamiento;
 }
 public List<Juego> getJuegos() {
 	return juegos;
